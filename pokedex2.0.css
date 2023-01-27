@@ -1,0 +1,92 @@
+header {
+    width: 1100;
+    height:180px;
+    background: rgb(215, 3, 3);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right:auto;
+    border: 2px solid black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    padding: 4px;
+    border-radius: 10px;
+    
+
+}
+#logo{
+    width: 235px;
+    height: 70px;
+    background: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+  h1 {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  body {
+    background: rgb(10, 10, 10);
+    background: linear-gradient(0deg, rgb(253, 254, 253) 0%, rgba(2, 2, 2, 0.822) 100%);
+    height: 150vh;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Oswald", sans-serif;
+  }
+  .container {
+    position: relative;
+  }
+  .container .box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .container .box .card {
+    padding: 5px;
+    position: relative;
+    width: 350px;
+    height: 250px;
+    background: rgb(213, 212, 212);
+    margin: 30px 30px;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.26);
+    margin-bottom: 15px;
+  }
+  .container .box .card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 60%;
+  }
+  .container .box .card .imgBox {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    margin-bottom: 5px;
+    background: rgb(213, 212, 212);
+    transition: 0.5s;
+  }
+  .container .box .card .details {
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    height: 45px;
+    text-align: center;
+  }
+  .container .box .card .details h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+  }
